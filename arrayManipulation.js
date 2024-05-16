@@ -11,7 +11,7 @@ function processArray(arr) {
   return newArray;
 }
 
-// const arr = [5, 6, 1, 6, 12, 14]; this could be an alternative but I decided to do it this way.
+// const arr = [5, 6, 1, 6, 12, 14]; this could be an alternative but I decided to do it this way..
 const newArray = processArray([8, 7, 6, 13, 16, 19, 20, 17, 23]);
 console.log(newArray);
 
