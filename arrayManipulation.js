@@ -32,17 +32,17 @@ function formatArrayStrings(arrStr, arrNum) {
   return newStrings;
 }
 
-const message = [
-  "this",
-  "is",
-  " a",
-  " new ",
-  "string",
-  "formatted",
-  "using",
-  "a",
-  "function",
+const names = [
+  "john",
+  "james",
+  " jake",
+  " drake ",
+  "mark",
+  "matt",
+  "pratt",
+  "luke",
+  "luka",
 ];
 
-const newMessage = formatArrayStrings(message, [1, 2, 3, 4, 5, 6, 7, 8, 9]);
+const newMessage = formatArrayStrings(names, [1, 2, 3, 4, 5, 6, 7, 8, 9]);
 console.log(newMessage);
